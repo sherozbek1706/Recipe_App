@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  outline: none;
+  box-sizing: border-box;
+}
+.resipe-cont .header h2{
+  margin: 15px 0;
+} 
+
+.resipe-cont .header img{
+  margin: 15px 0;
+  width: 700px;
+} 
+.info .button-items{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start ;
+}
+.info .button-items button{
+  margin: 0 20px 10px 0px;
+  width: 120px;
+  height: 40px;
+  border:2px solid black;
+  color: black;
+  font-weight: 600;
+  font-family: "Poppins";
+  background: white;
+}
+.info .button-items .active{
+  color: white;
+  background: linear-gradient(35deg, #494949, #313131);
+}
+.info .Instruction h3{
+  font-size: 20px;
+  text-align: justify;
+  margin: 10px 0;
+  font-weight: 500;
+}
+.info .Instruction h4{
+  font-weight: 500;
+  font-size: 16px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+.info .Ingredients ul li{
+  font-weight: 500;
+  
+}
